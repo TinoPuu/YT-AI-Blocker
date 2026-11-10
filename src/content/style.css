@@ -11,8 +11,13 @@
   padding: 8px 12px;
   border-radius: 8px;
   font: 400 14px/1.4 Roboto, Arial, sans-serif;
-  color: var(--yt-spec-text-primary, #0f0f0f);
-  background: var(--yt-spec-badge-chip-background, rgba(0, 0, 0, 0.05));
+  color: #0f0f0f;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+html[dark] .aiblock-bar {
+  color: #f1f1f1;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .aiblock-bar.aiblock-bar--floating {
@@ -22,17 +27,22 @@
   z-index: 2200;
   max-width: 420px;
   margin: 0;
-  background: var(--yt-spec-base-background, #fff);
+  background: #fff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+html[dark] .aiblock-bar.aiblock-bar--floating {
+  background: #212121;
+}
+
+.aiblock-bar.aiblock-bar--warning,
+html[dark] .aiblock-bar.aiblock-bar--warning {
+  background: #fde8c8;
+  color: #3d2600;
 }
 
 .aiblock-bar span:empty {
   display: none;
-}
-
-.aiblock-bar.aiblock-bar--warning {
-  background: #fde8c8;
-  color: #3d2600;
 }
 
 .aiblock-bar button {
