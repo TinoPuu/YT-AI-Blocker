@@ -1,0 +1,8 @@
+{
+  "extName": {
+    "message": "YouTube AI Video Filter"
+  },
+  "extDescription": {
+    "message": "Hides AI-labelled videos and channels on your AI blocklist from YouTube feeds."
+  }
+}

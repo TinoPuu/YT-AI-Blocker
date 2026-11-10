@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "twoColumnSearchResultsRenderer": {
+      "primaryContents": {
+        "sectionListRenderer": {
+          "contents": [
+            {
+              "itemSectionRenderer": {
+                "contents": [
+                  {
+                    "videoRenderer": {
+                      "videoId": "SD7XyG2wd1k",
+                      "ownerText": {
+                        "runs": [
+                          {
+                            "text": "Example AI Channel",
+                            "navigationEndpoint": {
+                              "browseEndpoint": {
+                                "browseId": "UCexampleAiChannel000000",
+                                "canonicalBaseUrl": "/@exampleai"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "expandableMetadata": {
+                        "expandableMetadataRenderer": {
+                          "header": {
+                            "expandedTitle": { "simpleText": "Tekoälyn luoma videoyhteenveto" }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "lockupViewModel": {
+                      "contentId": "lockupVid01",
+                      "contentType": "LOCKUP_CONTENT_TYPE_VIDEO",
+                      "metadata": {
+                        "lockupMetadataViewModel": {
+                          "image": {
+                            "decoratedAvatarViewModel": {
+                              "rendererContext": {
+                                "commandContext": {
+                                  "onTap": {
+                                    "innertubeCommand": {
+                                      "browseEndpoint": { "browseId": "UClockupChannel000000000" }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "lockupViewModel": {
+                      "contentId": "PLplaylist",
+                      "contentType": "LOCKUP_CONTENT_TYPE_PLAYLIST"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

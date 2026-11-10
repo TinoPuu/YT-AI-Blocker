@@ -1,0 +1,38 @@
+{
+  "videoId": "SD7XyG2wd1k",
+  "item": {
+    "howThisWasMadeSectionViewModel": {
+      "sectionTitle": {
+        "content": "Luotu näiden avulla"
+      },
+      "bodyText": {
+        "content": "Ääntä tai kuvaa on muokattu tai ne on luotu tekoälyllä. Katso lisätietoja",
+        "commandRuns": [
+          {
+            "startIndex": 56,
+            "length": 17,
+            "onTap": {
+              "innertubeCommand": {
+                "commandMetadata": {
+                  "webCommandMetadata": {
+                    "url": "//support.google.com/youtube/answer/15447836?hl=fi",
+                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                    "rootVe": 83769
+                  }
+                },
+                "urlEndpoint": {
+                  "url": "//support.google.com/youtube/answer/15447836?hl=fi",
+                  "target": "TARGET_NEW_WINDOW"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "bodyHeader": {
+        "content": "Luotu tekoälyllä"
+      },
+      "attributionText": {}
+    }
+  }
+}

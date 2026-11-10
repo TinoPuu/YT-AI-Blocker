@@ -1,0 +1,12 @@
+{
+  "name": "youtube-ai-video-filter",
+  "version": "0.3.0",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

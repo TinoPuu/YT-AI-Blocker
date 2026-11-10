@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="appName">AI-suodatin</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="../icons/icon-48.png" width="40" height="40" alt="" />
+      <div class="heading">
+        <h1 data-i18n="appName">AI-suodatin</h1>
+        <p id="state" class="state"></p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="enabled" role="switch" />
+        <span class="switch-track" aria-hidden="true"></span>
+        <span class="visually-hidden" data-i18n="filteringOn">Suodatus päällä</span>
+      </label>
+    </header>
+
+    <main class="channels">
+      <div class="channels-head">
+        <h2 id="channels-title" data-i18n="blockedChannels">Estetyt kanavat</h2>
+        <span id="count" class="count"></span>
+      </div>
+      <div id="empty" class="empty" hidden>
+        <p data-i18n="emptyTitle">Estolista on vielä tyhjä.</p>
+        <p data-i18n="emptyBody"></p>
+      </div>
+      <ul id="channels" class="list" aria-labelledby="channels-title"></ul>
+    </main>
+
+    <div id="status" class="status" role="status"></div>
+
+    <footer class="footer">
+      <button type="button" id="export" class="text-button" data-i18n="exportFile">Vie tiedostoon</button>
+      <button type="button" id="import" class="text-button" data-i18n="importFile">Tuo tiedostosta</button>
+      <input type="file" id="import-file" accept="application/json,.json" hidden />
+      <label class="language">
+        <span class="visually-hidden" data-i18n="language">Kieli</span>
+        <select id="language">
+          <option value="auto" data-i18n="languageAuto">Auto</option>
+          <option value="fi" lang="fi">Suomi</option>
+          <option value="en" lang="en">English</option>
+        </select>
+      </label>
+    </footer>
+
+    <script src="../lib/i18n.js"></script>
+    <script src="../lib/store.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
